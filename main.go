@@ -2,10 +2,6 @@
 /* This file takes an assumed json input file from the command line argument 'go run main.go <inputfile.json>', parses
 it's data and sets the fields accordingly to a Microsoft Teams Message Card to be sent to a Teams channel. Specifically,
 the 3 required fields are the webhookURL(which channel to send), title and text of message to send. */
-//POSTMAN TEST
-//webhookURL := "https://compassion.webhook.office.com/webhookb2/bb521093-fc98-488f-8876-af892e9649b4@d3c08eb3-7c4c-4a01-bc01-6c67b56c8da9/IncomingWebhook/34c22a9c8b004f74b8fc50cfe3754e89/93c9fa28-01e3-42ea-bab7-9264721a3fad"
-//DEVOPS MONITOR
-//webhookURL := "https://compassion.webhook.office.com/webhookb2/bb521093-fc98-488f-8876-af892e9649b4@d3c08eb3-7c4c-4a01-bc01-6c67b56c8da9/IncomingWebhook/ed37e28fcaec4e6cbbbe51a537e3877c/93c9fa28-01e3-42ea-bab7-9264721a3fad"
 
 package main
 
